@@ -95,7 +95,7 @@ let scrabble = {
   description: "The traditional scoring algorithm.",
   scoreFunction: scrabbleScore
 }
-let scoringAlgorithms = [simple, vowels, scrabble];
+let scoringAlgorithms = [scrabble, simple, vowels];
 
 function illegalCharChecker(word){
   word = word.toLowerCase();
